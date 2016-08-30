@@ -13,7 +13,11 @@ INCLUDEPATH += \
     $${GSTREAMER_PATH}/lib/glib-2.0/include \
     $${GSTREAMER_PATH}/include/glib-2.0 \
     $${GSTREAMER_PATH}/include/libxml2 \
-    $${GSTREAMER_PATH}/lib/gstreamer-1.0/include
+    $${GSTREAMER_PATH}/lib/gstreamer-1.0/include \
+    /usr/include/gstreamer-1.0 \
+    /usr/include/glib-2.0 \
+    /usr/lib/x86_64-linux-gnu/glib-2.0/include \
+    /usr/lib/x86_64-linux-gnu/gstreamer-1.0/include
 
 LIBS += \
     -L$${GSTREAMER_PATH}/lib \
